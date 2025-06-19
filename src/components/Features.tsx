@@ -11,11 +11,6 @@ export default function Features() {
       description: 'Characters that learn and evolve from each interaction, developing unique personalities that remember your preferences and conversation history.'
     },
     {
-      icon: 'fa-magic',
-      title: 'Any Character, Any Voice',
-      description: 'Transform any image into a talking, interactive character. From your brand mascot to historical figures—bring anyone to life.'
-    },
-    {
       icon: 'fa-rocket',
       title: 'Production-Ready Quality',
       description: 'Professional-grade output suitable for marketing campaigns, educational content, entertainment, and customer service applications.'
