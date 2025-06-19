@@ -6,7 +6,7 @@ export default function CTA() {
       <div className="container">
         <div className="cta-content">
           <h2>Experience the Future of Interactive Media</h2>
-          <p>Join the pioneers shaping tomorrow's entertainment and communication</p>
+          <p>Join the pioneers shaping tomorrow&apos;s entertainment and communication</p>
           <div className="cta-buttons">
             <Link href="#" className="btn-hero-primary">
               <i className="fas fa-magic"></i> Create Your Own AI

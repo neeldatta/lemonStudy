@@ -129,7 +129,7 @@ export default function Hero() {
             </div>
           </div>
           <p className="hero-subtitle">
-            Create AI characters that don't just speak—they listen, respond, and evolve. 
+            Create AI characters that don&apos;t just speak—they listen, respond, and evolve. 
             The first step toward a world where every story is personalized.
           </p>
           <div className="chat-actions">
