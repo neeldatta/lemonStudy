@@ -22,7 +22,7 @@ export default function Features() {
       <div className="container">
         <h2 className="section-title">Beyond Traditional Video</h2>
         <p className="section-subtitle">
-          Create characters that don't just perform—they engage, adapt, and evolve
+          Create characters that don&apos;t just perform—they engage, adapt, and evolve
         </p>
         <div className="features-grid">
           {features.map((feature, index) => (

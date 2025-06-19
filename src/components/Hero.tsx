@@ -23,7 +23,7 @@ export default function Hero() {
       setCurrentHeadline((prev) => (prev + 1) % headlines.length)
     }, 4000)
     return () => clearInterval(interval)
-  }, [])
+  }, [headlines.length])
 
   const handleChatSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -54,7 +54,7 @@ export default function Hero() {
         } else {
           throw new Error(data.error || 'No video URL returned')
         }
-      } catch (error) {
+      } catch {
         setChatHistory(prev => [...prev, { role: 'assistant', content: 'Sorry, I encountered an error. Please try again.' }])
       } finally {
         setIsLoading(false)
